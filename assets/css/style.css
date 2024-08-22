@@ -242,6 +242,55 @@ html {
 
 /* pricing section end */
 
+/* Counter Section Start */
+#counter {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/works.jpg) no-repeat;
+    background-size: cover;
+    color: var(--light-color);
+}
+
+.counter-card {
+    margin: 0;
+    border: 1px solid var(--light-color);
+    padding: 20px;
+    box-sizing: border-box;
+    /* margin: 0px 20px; */
+}
+
+/* Counter Section End */
+
+/* Form Section Start */
+#form_section {
+    background: var(--bs-light);
+    transition: .5s;
+}
+
+#form_section button {
+    color: var(--dark-color);
+    background: var(--light-color);
+    border: 1px solid var(--dark-color);
+    border-radius: 0;
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+
+#form_section button:hover {
+    color: var(--light-color);
+    background: var(--primary-color);
+    border: none;
+}
+
+/* Form Section End */
+
+/* Map Section Start */
+#map iframe {
+    height: 300px;
+    width: 100%;
+    border: none;
+}
+
+/* Map Section End */
+
 /* Footer Section Start */
 .footer-text p a {
     color: var(--light-color);
@@ -265,23 +314,3 @@ html {
 }
 
 /* Footer Section End */
-
-/* Works Section Start */
-#counter{
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../img/works.jpg) no-repeat;
-    background-size: cover;
-    color: var(--light-color);
-}
-
-.counter-card{
-    margin: 0;
-    border: 1px solid var(--light-color);
-    padding: 20px;
-    box-sizing: border-box;
-    /* margin: 0px 20px; */
-}
-/* Works Section End */
-
-main {
-    height: 1300px;
-}
